@@ -1,9 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletBuffUnitTesting", "WalletBuffUnitTesting\WalletBuffUnitTesting.csproj", "{14D35E12-D42A-43C6-9BF9-784C9C2F55FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletBuffApp", "WalletBuffApp\WalletBuffApp.csproj", "{6516921A-EAE8-49EB-9E6D-D9ABB3CCCCE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletBuff.Entities", "WalletBuff.Entities\WalletBuff.Entities.csproj", "{D4F38C80-A616-441D-B190-B4CFD84D671B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14D35E12-D42A-43C6-9BF9-784C9C2F55FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D35E12-D42A-43C6-9BF9-784C9C2F55FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D35E12-D42A-43C6-9BF9-784C9C2F55FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D35E12-D42A-43C6-9BF9-784C9C2F55FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6516921A-EAE8-49EB-9E6D-D9ABB3CCCCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6516921A-EAE8-49EB-9E6D-D9ABB3CCCCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6516921A-EAE8-49EB-9E6D-D9ABB3CCCCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6516921A-EAE8-49EB-9E6D-D9ABB3CCCCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F38C80-A616-441D-B190-B4CFD84D671B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F38C80-A616-441D-B190-B4CFD84D671B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F38C80-A616-441D-B190-B4CFD84D671B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F38C80-A616-441D-B190-B4CFD84D671B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
